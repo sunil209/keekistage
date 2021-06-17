@@ -1,0 +1,53 @@
+*** Australia Post ***
+
+2013.08.05 - version 2.1.11
+ * Allowed for non-registered letters
+
+2013.07.14 - version 2.1.10
+ * Set debug default to no
+
+2013.06.25 - version 2.1.9
+ * Added Express Courier International
+
+2013.05.28 - version 2.1.8
+ * New services http://auspost.com.au/parcels-mail/changes-to-parcel-service.html
+
+2013.05.28 - version 2.1.7
+ * Improved girth logic
+
+2013.05.07 - version 2.1.6
+ * Added girth check for satchels.
+
+2013.04.04 - version 2.1.5
+ * Fix virtual check when box packing
+
+2013.03.22 - version 2.1.4
+ * Check satchel dimensions manually.
+
+2013.02.26 - version 2.1.3
+ * Fix box saving
+
+2013.02.26 - version 2.1.2
+ * Don't add alternate services to cost - use them.
+
+2013.02.01 - version 2.1.1
+ * Cover for RPI
+
+2013.01.28 - version 2.1.0
+ * Fix air mail rates for letters
+ * Merge similar rates to deal with mixes of boxes and letters
+
+2013.01.25 - version 2.0.3
+ * Fix regular parcel rates
+
+2013.01.23 - version 2.0.2
+ * Fix satchel rates for 3 and 5kg
+ * Don't show unknown rates
+ * Fix outer dimensions in box packer
+ * Ensure rates are available for all packages
+
+2012.12.04 - version 2.0.1
+ * Fix registered post name
+
+2012.12.04 - version 2.0.0
+ * Complete rewrite using Australia Posts latest APIs.

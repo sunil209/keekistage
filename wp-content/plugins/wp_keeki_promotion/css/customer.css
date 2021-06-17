@@ -1,0 +1,47 @@
+.validatecustomer {
+    clear: both;
+    float: left;
+}
+.widefat tr td{
+    height: 40px;
+	
+}
+#pay-prop{
+	width: 26%;
+}
+#prop-lp {
+    width: 6%;
+}
+.card-cvc.regular-text {
+    width: 4%;
+}
+.card-expiry-month.regular-text {
+    width: 3%;
+}
+.card-expiry-year.regular-text {
+    width: 6%;
+}
+#instbold{
+	font-weight: bold;
+}
+#pay-now {
+    font-weight: bold;
+}
+#form2 {
+    clear: both;
+    float: left;
+	width: 100%;
+}
+.eascsv{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.eascsv img {
+    height: 23px;
+    margin-bottom: -6px;
+    margin-left: 9px;
+}
+.marginleft{
+	display: none;
+}

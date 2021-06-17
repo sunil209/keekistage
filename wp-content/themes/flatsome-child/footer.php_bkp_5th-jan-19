@@ -1,0 +1,107 @@
+<?php
+/**
+ * The template for displaying the footer.
+ *
+ * @package flatsome
+ */
+
+global $flatsome_opt;
+?>
+
+</main><!-- #main -->
+
+<footer id="footer" class="footer-wrapper">
+
+	<?php do_action('flatsome_footer'); ?>
+
+</footer><!-- .footer-wrapper -->
+
+</div><!-- #wrapper -->
+
+<?php wp_footer(); ?>
+ 
+<script type='text/javascript' src='<?php echo site_url(); ?>/wp-content/themes/flatsome-child/owl/owl.carousel.js'></script>
+
+<script type="text/javascript">
+
+jQuery( document ).ready(function() {
+
+   if (jQuery('html').is('.lt-ie7, .lt-ie8, .lt-ie9')) {   
+
+    jQuery('div.nav-dropdown').each(function()
+      {
+        jQuery(this).css('overflow-y','scroll');
+        jQuery(this).css('max-height','600px');  
+      });
+  }
+
+
+      jQuery('.owl-carousel').owlCarousel({
+     loop:true,
+      margin:10,
+      autoplay:true,
+      autoplayHoverPause:true,
+      smartSpeed : 250,
+      responsiveClass:true,
+      responsive:{
+          0:{
+              items:1,
+              nav:true
+          },
+          600:{
+              items:1,
+              nav:false
+          },
+          1000:{
+              items:1,
+              nav:false,
+              loop:false
+          }
+      }
+  });
+  
+});
+
+</script>
+
+
+<?php 
+if(is_cart() || is_checkout())
+  {
+  ?>
+    <script type="text/javascript">
+
+     jQuery(document).ajaxComplete(function( event, xhr, settings ) {
+        var string = settings.url;
+         
+        console.log(string);
+         
+        console.log(event);
+         
+         console.log(xhr);
+         
+         console.log(settings);
+         
+         
+         
+        if (string.indexOf('wc-ajax=get_refreshed_fragments') !== -1 || string.indexOf('cart') !== -1)
+          {
+             var value = 'keeki_shipping';
+             jQuery("#shipping_method input[type=radio][value=" + value + "]").attr('checked', 'checked');
+            
+          }
+
+
+      });
+
+
+
+    </script>
+
+  <?php
+  }
+?>
+
+
+</body>
+</html>
