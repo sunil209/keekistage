@@ -1,0 +1,1096 @@
+﻿<response>
+  <table name="DRWGRP">
+    <records count="61">
+      <record item="1">
+        <field name="WEBGROUP">KIDS</field>
+        <field name="DESC">Kids</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\KIDS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1"/>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="2">
+        <field name="WEBGROUP">FURNITURE</field>
+        <field name="DESC">Furniture</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\FURNITURE CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1"/>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="3">
+        <field name="WEBGROUP">HOMEW</field>
+        <field name="DESC">Homewares</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\HOMEWARES CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1"/>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="4">
+        <field name="WEBGROUP">HIRE</field>
+        <field name="DESC">Hire</field>
+        <field name="PICFILE"/>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1"/>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="5">
+        <field name="WEBGROUP">BED01</field>
+        <field name="DESC">Beds</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\BEDS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">BED</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="6">
+        <field name="WEBGROUP">BED03</field>
+        <field name="DESC">Dressers and Tallboys</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\DRESSERS AND TALLBOYS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">BED</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="7">
+        <field name="WEBGROUP">BED02</field>
+        <field name="DESC">Bedside Tables</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\BESIDE TABLE CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">BED</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="8">
+        <field name="WEBGROUP">CHAIR03</field>
+        <field name="DESC">Ottomans</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\OTTOMANS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">CHAIRS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="9">
+        <field name="WEBGROUP">CHAIR04</field>
+        <field name="DESC">Dining Chairs</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\DINING CHAIRS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">CHAIRS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="10">
+        <field name="WEBGROUP">CHAIR01</field>
+        <field name="DESC">Accent Chairs</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\ACCENT CHAIR CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">CHAIRS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="11">
+        <field name="WEBGROUP">CHAIR05</field>
+        <field name="DESC">Bar Stools</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\BAR STOOLS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">CHAIRS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="12">
+        <field name="WEBGROUP">DINING01</field>
+        <field name="DESC">Dining Tables</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\TABLES CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">DINING</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="13">
+        <field name="WEBGROUP">DINING02</field>
+        <field name="DESC">Dining Chairs</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\DINING CHAIRS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">DINING</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="14">
+        <field name="WEBGROUP">DINING03</field>
+        <field name="DESC">Bar Stools</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\BAR STOOLS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">DINING</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="15">
+        <field name="WEBGROUP">CHAIRS</field>
+        <field name="DESC">Chairs</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\CHAIR CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">FURNITURE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="16">
+        <field name="WEBGROUP">DINING</field>
+        <field name="DESC">Dining</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\DINING CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">FURNITURE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="17">
+        <field name="WEBGROUP">UNIT</field>
+        <field name="DESC">Units</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\UNITS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">FURNITURE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="18">
+        <field name="WEBGROUP">BED</field>
+        <field name="DESC">Bedroom</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\BEDROOM CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">FURNITURE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="19">
+        <field name="WEBGROUP">OUTDR01</field>
+        <field name="DESC">Outdoor</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\OUTDOOR CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">FURNITURE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="20">
+        <field name="WEBGROUP">OCCAS</field>
+        <field name="DESC">Occasional Pieces</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\OCCISIONAL CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">FURNITURE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="21">
+        <field name="WEBGROUP">LOUNGE</field>
+        <field name="DESC">Lounge</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\LOUNGE CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">FURNITURE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="22">
+        <field name="WEBGROUP">PROPST</field>
+        <field name="DESC">Property Styling</field>
+        <field name="PICFILE"/>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HIRE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="23">
+        <field name="WEBGROUP">HOMEW06</field>
+        <field name="DESC">Candles, Candle Holders and Aromatics</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\CANDLES CANDLEHOLDERS AND AROMATICS.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="24">
+        <field name="WEBGROUP">HOMEW07</field>
+        <field name="DESC">Flowers and Foliage</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\FLOWERS AND FOLIAGE CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="25">
+        <field name="WEBGROUP">HOMEW05</field>
+        <field name="DESC">Bowls, Trays and Accessories</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\BOWLS TRAYS ACCESSORIES CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="26">
+        <field name="WEBGROUP">HOMEW04</field>
+        <field name="DESC">Vases and Vessels</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\VASES AND VESSELS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="27">
+        <field name="WEBGROUP">HOMEW03</field>
+        <field name="DESC">Decorator</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\DECORATOR CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="28">
+        <field name="WEBGROUP">HOMEW11</field>
+        <field name="DESC">Mirrors</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\MIRRORS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="29">
+        <field name="WEBGROUP">HOMEW12</field>
+        <field name="DESC">Wall Art</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\WALL ART CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="30">
+        <field name="WEBGROUP">HOMEW13</field>
+        <field name="DESC">Floor Rugs</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\FLOOR RUGS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="31">
+        <field name="WEBGROUP">HOMEW08</field>
+        <field name="DESC">Soft Furnishings</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\SOFT FURNISHINGS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="32">
+        <field name="WEBGROUP">HOMEW16</field>
+        <field name="DESC">Kitchenware</field>
+        <field name="PICFILE">K:\WEBSITE\CATEGORY IMAGES\KITCHEN_BANNER2.JPG</field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="33">
+        <field name="WEBGROUP">HOMEW09</field>
+        <field name="DESC">Sculptures</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\SCULPTURES CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="34">
+        <field name="WEBGROUP">HOMEW02</field>
+        <field name="DESC">Lighting</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\LIGHTING CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="35">
+        <field name="WEBGROUP">HOMEW10</field>
+        <field name="DESC">Clocks and Frames</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\CLOCKS AND FRAMES CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="36">
+        <field name="WEBGROUP">HOMEW01</field>
+        <field name="DESC">Bed Linen</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\BED LINEN CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="37">
+        <field name="WEBGROUP">HOMEW14</field>
+        <field name="DESC">Hanging Features and Screens</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\HANGING FEATURES AND SCREENS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="38">
+        <field name="WEBGROUP">LIGHT02</field>
+        <field name="DESC">Table Lamps</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\TABLE LAMPS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW02</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="39">
+        <field name="WEBGROUP">LIGHT03</field>
+        <field name="DESC">Pendants</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\PENDANTS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW02</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="40">
+        <field name="WEBGROUP">LIGHT01</field>
+        <field name="DESC">Floor Lamps</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\FLOOR LAMPS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW02</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="41">
+        <field name="WEBGROUP">SOFT03</field>
+        <field name="DESC">Bean Bags</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\BEAN BAGS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW08</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="42">
+        <field name="WEBGROUP">SOFT02</field>
+        <field name="DESC">Throws</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\12399_HEADER-BANNER_THROW.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW08</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="43">
+        <field name="WEBGROUP">SOFT01</field>
+        <field name="DESC">Cushions</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\CUSHIONS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">HOMEW08</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="44">
+        <field name="WEBGROUP">KIDS03</field>
+        <field name="DESC">Dressers and Tallboys</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\KIDS DRESSERS AND TALLBOYS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">KIDS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="45">
+        <field name="WEBGROUP">KIDS05</field>
+        <field name="DESC">Kids Decorator</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\KIDS DECORATOR CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">KIDS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="46">
+        <field name="WEBGROUP">KIDS06</field>
+        <field name="DESC">Baby</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\BABY CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">KIDS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="47">
+        <field name="WEBGROUP">KIDS02</field>
+        <field name="DESC">Bedside Tables</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\KIDS BEDSIDE TABLES CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">KIDS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="48">
+        <field name="WEBGROUP">KIDS01</field>
+        <field name="DESC">Beds</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\KIDS BEDS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">KIDS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="49">
+        <field name="WEBGROUP">KIDS04</field>
+        <field name="DESC">Bed Linen</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\KIDS BEN LINEN CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">KIDS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="50">
+        <field name="WEBGROUP">CHAIR02</field>
+        <field name="DESC">Recliners</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\RECLINERS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">LOUNGE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="51">
+        <field name="WEBGROUP">LOUNGE03</field>
+        <field name="DESC">Modular Lounges</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\MODULAR LOUNGE CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">LOUNGE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="52">
+        <field name="WEBGROUP">LOUNGE02</field>
+        <field name="DESC">Fabric Lounges</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\FABRIC LOUNGE CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">LOUNGE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="53">
+        <field name="WEBGROUP">LOUNGE01</field>
+        <field name="DESC">Leather Lounges</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\LEATHER LOUNGE CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">LOUNGE</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="54">
+        <field name="WEBGROUP">OCCAS03</field>
+        <field name="DESC">Console Tables</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\CONSOLE TABLES CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">OCCAS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="55">
+        <field name="WEBGROUP">OCCAS04</field>
+        <field name="DESC">Accent items</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\ACCENT ITEMS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">OCCAS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="56">
+        <field name="WEBGROUP">OCCAS01</field>
+        <field name="DESC">Coffee Tables</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\COFFEE TABLE CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">OCCAS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="57">
+        <field name="WEBGROUP">OCCAS02</field>
+        <field name="DESC">Lamp Tables</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\LAMP TABLES CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">OCCAS</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="58">
+        <field name="WEBGROUP">UNIT01</field>
+        <field name="DESC">Buffets</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\BUFFEST CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">UNIT</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="59">
+        <field name="WEBGROUP">UNIT02</field>
+        <field name="DESC">Shelves and Displays</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\SHELVES AND DISPLAYS CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">UNIT</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="60">
+        <field name="WEBGROUP">UNIT03</field>
+        <field name="DESC">Bar Units</field>
+        <field name="PICFILE"/>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">UNIT</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+      <record item="61">
+        <field name="WEBGROUP">UNIT04</field>
+        <field name="DESC">Entertainment Units</field>
+        <field name="PICFILE">
+          K:\WEBSITE\CATEGORY IMAGES\KEEKI CATEGORY IMAGES\ENTERTAINMENT UNIT CATEGORY IMAGE.JPG
+        </field>
+        <field name="WGRPFLAG1">N</field>
+        <field name="PARGROUP1">UNIT</field>
+        <field name="PARGROUP2"/>
+        <field name="PARGROUP3"/>
+        <field name="PARGROUP4"/>
+        <field name="PARGROUP5"/>
+        <field name="PARGROUP6"/>
+        <field name="PARGROUP7"/>
+        <field name="PARGROUP8"/>
+        <field name="PARGROUP9"/>
+        <field name="PARGROUP10"/>
+      </record>
+    </records>
+  </table>
+</response>

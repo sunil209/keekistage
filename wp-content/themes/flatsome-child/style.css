@@ -1,0 +1,21 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+div#myText { height: auto !important; }
+@media(max-width:767px){
+	    #more_less{display: none;}
+    #rp_shipping_calculator .rp_shipping_button .btn_shipping{display: inline-block !important;}
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
