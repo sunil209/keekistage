@@ -2332,148 +2332,165 @@ add_filter('woocommerce_rest_prepare_product_variation_object', 'keeki_change_pr
 
 function keeki_change_product_response($response, $object, $request) {
     global $wpdb;
+
     if (empty($response->data))
         return $response;
 
+            $temp_response = $response;
+
         if($_SERVER['REQUEST_METHOD'] == 'POST' && $_SERVER['REQUEST_METHOD'] != 'PUT' && $_SERVER['REQUEST_METHOD'] != 'GET')
             {
-            
+
                 $id = $object->get_id(); 
                 $variation_id = $id;
 
-                if($variation_id){
+                $check_if_update = get_post_meta( $variation_id, 'is_variations_update',true);
+                if($check_if_update){
 
-                	$get_current_imgIds = $wpdb->get_row("SELECT * FROM `".$wpdb->prefix."netsuite_img_temp` WHERE product_id = $variation_id");
-
-                	if($get_current_imgIds){
-
-                        // Noting to do
-                    }
-                    else
-                    {
-                        $temp_array = array('0'=>'', '1'=>'', '2'=>'', '3'=>'', '4'=>'', '5'=>'', '6'=>'', '7'=>'', '8'=>'', '9'=>'' );
-
-                        $created            = date("Y-m-d h:i:s");
-                        $update             = '';
-
-                        $image_ids_check = $wpdb->insert( 
-                                                $wpdb->prefix.'netsuite_img_temp', 
-                                                array( 
-                                                    'product_id' => $variation_id,
-                                                    'image_ids'  => serialize($temp_array),
-                                                    'created'    => $created,
-                                                    'update'     => $update
-                                                ), 
-                                                array( 
-                                                    '%d',
-                                                    '%s',
-                                                    '%s',
-                                                    '%s'
-                                                ) 
-                                            );
-                    }
-
-                    if($image_ids_check){
-	                    if (!empty($request['images_netsuite']) && is_array($request['images_netsuite'])) {
-		                        $uploadImageIds = array();
-		                        $imageInfo      = array();
-		                        $singleImageId  = '';
-		                        $response->data['images_netsuite']   = array();
-
-		                        foreach ($request['images_netsuite'] as $ref_img_url) {
-		                        	 if($ref_img_url['src'] != ''){
-		                        	 	$singleImageId              = keeki_2021_saveFile($ref_img_url['src']);
-		                             	$imageInfo[$singleImageId]  = $ref_img_url['position'];
-
-		                                $response->data['images_netsuite'][] = array(
-		                                                                        'id' => $singleImageId,
-		                                                                        'position' => $ref_img_url['position']
-		                                                                    );
-
-		                                $temp_array[$ref_img_url['position']] = $singleImageId; 
-		                        	 }
-		                             
-		                        }
-
-
-
-
-		                                                       /* Update the Images and Gallery */
-
-                             if (is_array($temp_array)) {
-                                     $gallery = array();
-                                     $is_main_Img = '';
-
-
-                                    $update    = date("Y-m-d h:i:s");
-                                    $ifupdated = $wpdb->update( 
-                                                 $wpdb->prefix.'netsuite_img_temp', 
-                                                    array( 
-                                                        'image_ids' => serialize($temp_array),
-                                                        'update'    => $update
-                                                    ), 
-                                                    array( 'product_id' => $variation_id ), 
-                                                    array( 
-                                                        '%s',
-                                                        '%s'
-                                                    ) ,
-                                                    array( 
-                                                        '%d'
-                                                    ) 
-                                            );
-
-                                    if ( false === $ifupdated ) {
-                                                $response->data['error'] = 'DB Error';
-                                            } else {
-                                                $response->data['sucess'] = 'Updated Sucessfully';
-                                            }
-
-
-
-
-                                     foreach ($temp_array as $position => $image) {
-                                        if($image != ''){
-                                            if($is_main_Img == ''){
-                                                 $attachment_id = isset($image) ? absint($image) : 0;
-                                                 if($attachment_id != 0){
-                                                    set_post_thumbnail($variation_id, $attachment_id);
-                                                    $is_main_Img = true; 
-                                                 }
-                                            }
-                                            else
-                                            {
-                                                  $attachment_id = isset($image) ? absint($image) : 0;
-                                                  if (0 === $attachment_id) {
-                                                            // Noting to do
-                                                   } else {
-                                                         $gallery[] = $attachment_id;
-                                                    }
-                                                
-                                            }
-
-                                        }
-
-                                     }
-
-
-                                     if (!empty($gallery)) {
-                                         update_post_meta($variation_id, 'rtwpvg_images', $gallery );
-                                     }
-                                     
-                                 } 
-                              else 
-                                 {
-                                     //delete_post_thumbnail($id);
-                                     // update_post_meta($id, '_product_image_gallery', '');
-                                 }
-
-		                }
-	            	}
-
-
+                    $response = product_variation_update($variation_id , $response, $object, $request);
 
                 }
-                
+                else
+                {
+
+                    if($variation_id){
+
+                        $get_current_imgIds = $wpdb->get_row("SELECT * FROM `".$wpdb->prefix."netsuite_img_temp` WHERE product_id = $variation_id");
+    
+    
+                        if($get_current_imgIds){
+    
+                            // Noting to do
+    
+                        }
+                        else
+                        {
+    
+                            $temp_array = array('0'=>'', '1'=>'', '2'=>'', '3'=>'', '4'=>'', '5'=>'', '6'=>'', '7'=>'', '8'=>'', '9'=>'' );
+    
+                            $created            = date("Y-m-d h:i:s");
+                            $update             = '';
+    
+                            $image_ids_check = $wpdb->insert( 
+                                                    $wpdb->prefix.'netsuite_img_temp', 
+                                                    array( 
+                                                        'product_id' => $variation_id,
+                                                        'image_ids'  => serialize($temp_array),
+                                                        'created'    => $created,
+                                                        'update'     => $update
+                                                    ), 
+                                                    array( 
+                                                        '%d',
+                                                        '%s',
+                                                        '%s',
+                                                        '%s'
+                                                    ) 
+                                                );
+                        }
+    
+                        if($image_ids_check){
+                            if (!empty($request['images_netsuite']) && is_array($request['images_netsuite'])) {
+                                    $uploadImageIds = array();
+                                    $imageInfo      = array();
+                                    $singleImageId  = '';
+                                    $response->data['images_netsuite']   = array();
+    
+                                    foreach ($request['images_netsuite'] as $ref_img_url) {
+                                         if($ref_img_url['src'] != ''){
+                                             $singleImageId              = keeki_2021_saveFile($ref_img_url['src']);
+                                             $imageInfo[$singleImageId]  = $ref_img_url['position'];
+    
+                                            $response->data['images_netsuite'][] = array(
+                                                                                    'id' => $singleImageId,
+                                                                                    'position' => $ref_img_url['position']
+                                                                                );
+    
+                                            $temp_array[$ref_img_url['position']] = $singleImageId; 
+                                         }
+                                         
+                                    }
+    
+    
+    
+    
+                                                                   /* Update the Images and Gallery */
+    
+                                 if (is_array($temp_array)) {
+                                         $gallery = array();
+                                         $is_main_Img = '';
+    
+    
+                                        $update    = date("Y-m-d h:i:s");
+                                        $ifupdated = $wpdb->update( 
+                                                     $wpdb->prefix.'netsuite_img_temp', 
+                                                        array( 
+                                                            'image_ids' => serialize($temp_array),
+                                                            'update'    => $update
+                                                        ), 
+                                                        array( 'product_id' => $variation_id ), 
+                                                        array( 
+                                                            '%s',
+                                                            '%s'
+                                                        ) ,
+                                                        array( 
+                                                            '%d'
+                                                        ) 
+                                                );
+    
+                                        if ( false === $ifupdated ) {
+                                                    $response->data['error'] = 'DB Error';
+                                                } else {
+                                                    $response->data['sucess'] = 'Updated Sucessfully';
+                                                }
+    
+    
+    
+    
+                                         foreach ($temp_array as $position => $image) {
+                                            if($image != ''){
+                                                if($is_main_Img == ''){
+                                                     $attachment_id = isset($image) ? absint($image) : 0;
+                                                     if($attachment_id != 0){
+                                                        set_post_thumbnail($variation_id, $attachment_id);
+                                                        $is_main_Img = true; 
+                                                     }
+                                                }
+                                                else
+                                                {
+                                                      $attachment_id = isset($image) ? absint($image) : 0;
+                                                      if (0 === $attachment_id) {
+                                                                // Noting to do
+                                                       } else {
+                                                             $gallery[] = $attachment_id;
+                                                        }
+                                                    
+                                                }
+    
+                                            }
+    
+                                         }
+    
+    
+                                         if (!empty($gallery)) {
+                                             update_post_meta($variation_id, 'rtwpvg_images', $gallery );
+                                         }
+                                         
+                                     } 
+                                  else 
+                                     {
+                                         //delete_post_thumbnail($id);
+                                         // update_post_meta($id, '_product_image_gallery', '');
+                                     }
+    
+                            }
+                        }
+    
+    
+    
+                    }
+                    
+                }
+
 
 
 
@@ -2482,138 +2499,126 @@ function keeki_change_product_response($response, $object, $request) {
     
         if($_SERVER['REQUEST_METHOD'] == 'PUT' && $_SERVER['REQUEST_METHOD'] != 'POST' && $_SERVER['REQUEST_METHOD'] != 'GET')
              {
-                 
+
+                    
                      $id = $object->get_id(); 
                      $variation_id = $id;
-                     if($variation_id){
+                     $response = product_variation_update($variation_id , $response, $object, $request);
+                     
+                     /*
+                        if($variation_id){
 
-                        $temp_put_array = array();
+                            $temp_put_array = array();
+                            $get_current_imgIds = $wpdb->get_row("SELECT * FROM `".$wpdb->prefix."netsuite_img_temp` WHERE product_id = $variation_id");
 
-                        $get_current_imgIds = $wpdb->get_row("SELECT * FROM `".$wpdb->prefix."netsuite_img_temp` WHERE product_id = $variation_id");
+                            if($get_current_imgIds){
+                            $get_put_images_identifier =  unserialize($get_current_imgIds->image_ids);
+                            }
 
-                        if($get_current_imgIds){
-                           $get_put_images_identifier =  unserialize($get_current_imgIds->image_ids);
+                            $response->data['images_netsuite']   = array();
+                            if (!empty($request['images_netsuite']) && is_array($request['images_netsuite'])) {
+                                    $uploadImageIds = array();
+                                    $imageInfo      = array();
+                                    $singleImageId  = '';
 
-                        }
+                                    foreach ($request['images_netsuite'] as $ref_img_url) {
+                                        if($ref_img_url['src'] != ''){
+                                                $singleImageId              = keeki_2021_saveFile($ref_img_url['src']);
+                                                $imageInfo[$singleImageId]  = $ref_img_url['position'];
 
-                       
+                                            // $temp_positions[] = $ref_img_url['position'];
 
+                                                $response->data['images_netsuite'][] = array(
+                                                                                            'id' => $singleImageId,
+                                                                                            'position' => $ref_img_url['position']
+                                                                                        );
 
-
-                        $response->data['images_netsuite']   = array();
-                        if (!empty($request['images_netsuite']) && is_array($request['images_netsuite'])) {
-                                $uploadImageIds = array();
-                                $imageInfo      = array();
-                                $singleImageId  = '';
-
-                                foreach ($request['images_netsuite'] as $ref_img_url) {
-                                     if($ref_img_url['src'] != ''){
-                                            $singleImageId              = keeki_2021_saveFile($ref_img_url['src']);
-                                            $imageInfo[$singleImageId]  = $ref_img_url['position'];
-
-                                           // $temp_positions[] = $ref_img_url['position'];
-
-                                            $response->data['images_netsuite'][] = array(
-                                                                                        'id' => $singleImageId,
-                                                                                        'position' => $ref_img_url['position']
-                                                                                    );
-
-                                            $temp_put_array[$ref_img_url['position']] = $singleImageId; 
-                                             if (is_array($get_put_images_identifier)) 
-                                             {
-                                                    $get_put_images_identifier[$ref_img_url['position']] = $singleImageId;
-                                             } 
-              
-                                        }
-                                     
-                                }
-
-
-                                if (is_array($get_put_images_identifier)) {
-
-                                     $gallery = array();
-                                     $is_main_Img = '';
-
-
-
-                                     /* Update query here */
-
-                                    /*
-                                    update_post_meta($variation_id, 'rtwpvg_images', $get_put_images_identifier );
-                                    */
-
-
-
-                                    $update    = date("Y-m-d h:i:s");
-                                    $ifupdated = $wpdb->update( 
-                                                    $wpdb->prefix.'netsuite_img_temp', 
-                                                            array( 
-                                                                'image_ids' => serialize($get_put_images_identifier),
-                                                                'update'    => $update
-                                                            ), 
-                                                            array( 'product_id' => $variation_id ), 
-                                                            array( 
-                                                                '%s',
-                                                                '%s'
-                                                            ) ,
-                                                            array( 
-                                                                '%d'
-                                                            ) 
-                                                    );
-
-                                    if ( false === $ifupdated ) {
-                                            $response->data['error'] = 'DB Error';
-                                        } 
-                                   else {
-                                            $response->data['sucess'] = 'Updated Sucessfully';
-                                        }
-
-
-                                     foreach ($get_put_images_identifier as $position => $image) {
-                                        if($image != ''){
-                                            if($is_main_Img == ''){
-                                                 $attachment_id = isset($image) ? absint($image) : 0;
-                                                 if($attachment_id != 0){
-                                                    set_post_thumbnail($variation_id, $attachment_id);
-                                                    $is_main_Img = true; 
-                                                 }
+                                                $temp_put_array[$ref_img_url['position']] = $singleImageId; 
+                                                if (is_array($get_put_images_identifier)) 
+                                                {
+                                                        $get_put_images_identifier[$ref_img_url['position']] = $singleImageId;
+                                                } 
+                
                                             }
-                                            else
-                                            {
-                                                  $attachment_id = isset($image) ? absint($image) : 0;
-                                                  if (0 === $attachment_id) {
-                                                            // Noting to do
-                                                   } else {
-                                                         $gallery[] = $attachment_id;
+                                        
+                                    }
+
+                                    if (is_array($get_put_images_identifier)) {
+
+                                        $gallery = array();
+                                        $is_main_Img = '';
+
+                                        $update    = date("Y-m-d h:i:s");
+                                        $ifupdated = $wpdb->update( 
+                                                        $wpdb->prefix.'netsuite_img_temp', 
+                                                                array( 
+                                                                    'image_ids' => serialize($get_put_images_identifier),
+                                                                    'update'    => $update
+                                                                ), 
+                                                                array( 'product_id' => $variation_id ), 
+                                                                array( 
+                                                                    '%s',
+                                                                    '%s'
+                                                                ) ,
+                                                                array( 
+                                                                    '%d'
+                                                                ) 
+                                                        );
+
+                                        if ( false === $ifupdated ) {
+                                                $response->data['error'] = 'DB Error';
+                                            } 
+                                    else {
+                                                $response->data['sucess'] = 'Updated Sucessfully';
+                                            }
+
+
+                                        foreach ($get_put_images_identifier as $position => $image) {
+                                            if($image != ''){
+                                                if($is_main_Img == ''){
+                                                    $attachment_id = isset($image) ? absint($image) : 0;
+                                                    if($attachment_id != 0){
+                                                        set_post_thumbnail($variation_id, $attachment_id);
+                                                        $is_main_Img = true; 
                                                     }
-                                                
+                                                }
+                                                else
+                                                {
+                                                    $attachment_id = isset($image) ? absint($image) : 0;
+                                                    if (0 === $attachment_id) {
+                                                                // Noting to do
+                                                    } else {
+                                                            $gallery[] = $attachment_id;
+                                                        }
+                                                    
+                                                }
+
                                             }
-
                                         }
-                                     }
 
 
-                                    if (!empty($gallery)) {
-                                         update_post_meta($variation_id, 'rtwpvg_images', $gallery );
-                                     }
+                                        if (!empty($gallery)) {
+                                            update_post_meta($variation_id, 'rtwpvg_images', $gallery );
+                                        }
 
 
-                                 } 
-                            else {
-                                     //delete_post_thumbnail($id);
-                                     // update_post_meta($id, '_product_image_gallery', '');
-                                 }
+                                    } 
+                                else {
+                                        //delete_post_thumbnail($id);
+                                        // update_post_meta($id, '_product_image_gallery', '');
+                                    }
+
+                            }
 
                         }
-
-                     }
+                     */
 
 
              
              }
 
 
-         if($_SERVER['REQUEST_METHOD'] == 'GET' && $_SERVER['REQUEST_METHOD'] != 'POST' && $_SERVER['REQUEST_METHOD'] != 'PUT')
+        if($_SERVER['REQUEST_METHOD'] == 'GET' && $_SERVER['REQUEST_METHOD'] != 'POST' && $_SERVER['REQUEST_METHOD'] != 'PUT')
              {
                  
                 	$id = $object->get_id(); 
@@ -2665,6 +2670,7 @@ function wc_app_add_custom_data_to_product( $response, $object, $request ) {
 
     if($_SERVER['REQUEST_METHOD'] == 'POST' && $_SERVER['REQUEST_METHOD'] != 'PUT' && $_SERVER['REQUEST_METHOD'] != 'GET'){
                 
+             
         	 $create_product_id = $object->get_id(); 
         	 if($create_product_id){
 
@@ -2721,8 +2727,6 @@ function wc_app_add_custom_data_to_product( $response, $object, $request ) {
                                      }
                                      
                                 }
-
-                                
 
                                 /* Update the Images and Gallery */
 
@@ -3083,3 +3087,128 @@ function upload_image_from_url_2021( $imageurl ){
     
                 return $attachmentId;
 } 
+
+
+function product_variation_update($variation_id , $response, $object, $request){
+
+        global $wpdb;
+       // $id = $object->get_id(); 
+       // $variation_id = $id;
+        if($variation_id){
+
+            $temp_put_array = array();
+
+            $get_current_imgIds = $wpdb->get_row("SELECT * FROM `".$wpdb->prefix."netsuite_img_temp` WHERE product_id = $variation_id");
+
+            if($get_current_imgIds){
+                $get_put_images_identifier =  unserialize($get_current_imgIds->image_ids);
+            }
+
+            $response->data['images_netsuite']   = array();
+            if (!empty($request['images_netsuite']) && is_array($request['images_netsuite'])) {
+                    $uploadImageIds = array();
+                    $imageInfo      = array();
+                    $singleImageId  = '';
+
+                    foreach ($request['images_netsuite'] as $ref_img_url) {
+                            if($ref_img_url['src'] != ''){
+                                $singleImageId              = keeki_2021_saveFile($ref_img_url['src']);
+                                $imageInfo[$singleImageId]  = $ref_img_url['position'];
+
+                                // $temp_positions[] = $ref_img_url['position'];
+
+                                $response->data['images_netsuite'][] = array(
+                                                                            'id' => $singleImageId,
+                                                                            'position' => $ref_img_url['position']
+                                                                        );
+
+                                $temp_put_array[$ref_img_url['position']] = $singleImageId; 
+                                    if (is_array($get_put_images_identifier)) 
+                                    {
+                                        $get_put_images_identifier[$ref_img_url['position']] = $singleImageId;
+                                    } 
+
+                            }
+                            
+                    }
+
+                    if (is_array($get_put_images_identifier)) {
+
+                            $gallery = array();
+                            $is_main_Img = '';
+
+                        $update    = date("Y-m-d h:i:s");
+                        $ifupdated = $wpdb->update( 
+                                        $wpdb->prefix.'netsuite_img_temp', 
+                                                array( 
+                                                    'image_ids' => serialize($get_put_images_identifier),
+                                                    'update'    => $update
+                                                ), 
+                                                array( 'product_id' => $variation_id ), 
+                                                array( 
+                                                    '%s',
+                                                    '%s'
+                                                ) ,
+                                                array( 
+                                                    '%d'
+                                                ) 
+                                        );
+
+                        if ( false === $ifupdated ) {
+                                $response->data['error'] = 'DB Error';
+                            } 
+                        else {
+                                $response->data['sucess'] = 'Updated Sucessfully';
+                            }
+
+
+                            foreach ($get_put_images_identifier as $position => $image) {
+                            if($image != ''){
+                                if($is_main_Img == ''){
+                                        $attachment_id = isset($image) ? absint($image) : 0;
+                                        if($attachment_id != 0){
+                                        set_post_thumbnail($variation_id, $attachment_id);
+                                        $is_main_Img = true; 
+                                        }
+                                }
+                                else
+                                {
+                                        $attachment_id = isset($image) ? absint($image) : 0;
+                                        if (0 === $attachment_id) {
+                                                // Noting to do
+                                        } else {
+                                                $gallery[] = $attachment_id;
+                                        }
+                                    
+                                }
+
+                            }
+                            }
+
+
+                        if (!empty($gallery)) {
+                                update_post_meta($variation_id, 'rtwpvg_images', $gallery );
+                            }
+
+
+                        } 
+                else {
+                            //delete_post_thumbnail($id);
+                            // update_post_meta($id, '_product_image_gallery', '');
+                        }
+
+            }
+
+        }
+
+        return $response;
+
+}
+
+
+function action_woocommerce_update_product_variation( $product_get_id ) { 
+    update_post_meta($product_get_id, 'is_variations_update', true );
+}; 
+         
+// add the action 
+add_action( 'woocommerce_update_product_variation', 'action_woocommerce_update_product_variation', 10, 1 );
